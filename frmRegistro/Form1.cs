@@ -60,5 +60,10 @@ namespace frmRegistro
                 MessageBox.Show("Modificado con exito");
             }
         }
+
+        private void frmRegistro_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
