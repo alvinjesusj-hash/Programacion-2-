@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D0F90E14-6317-4417-ACCB-ECC32BC03783}</ProjectGuid>
+    <ProjectGuid>{E2F8C804-2092-4A17-B25C-420937EA20A1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Unidad2_operadores</RootNamespace>
-    <AssemblyName>Unidad2_operadores</AssemblyName>
+    <RootNamespace>Unidad3_MessageBox_</RootNamespace>
+    <AssemblyName>Unidad3_MessageBox_</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,9 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System">
-      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
-    </Reference>
+    <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -48,52 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ejemplos\Colores.cs">
+    <Compile Include="Ejemplos\frmEjemplosswitch.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ejemplos\Colores.Designer.cs">
-      <DependentUpon>Colores.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejemplos\Comparador.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejemplos\Comparador.Designer.cs">
-      <DependentUpon>Comparador.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejemplos\EjemploControles.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejemplos\EjemploControles.Designer.cs">
-      <DependentUpon>EjemploControles.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejemplos\EjemploOperadore.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejemplos\EjemploOperadore.Designer.cs">
-      <DependentUpon>EjemploOperadore.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Ejemplos\Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Ejemplos\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Ejemplos\frmEjemplosswitch.Designer.cs">
+      <DependentUpon>frmEjemplosswitch.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Ejemplos\Colores.resx">
-      <DependentUpon>Colores.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejemplos\Comparador.resx">
-      <DependentUpon>Comparador.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejemplos\EjemploControles.resx">
-      <DependentUpon>EjemploControles.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejemplos\EjemploOperadore.resx">
-      <DependentUpon>EjemploOperadore.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Ejemplos\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Ejemplos\frmEjemplosswitch.resx">
+      <DependentUpon>frmEjemplosswitch.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
