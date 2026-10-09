@@ -52,10 +52,46 @@
     <Compile Include="Ejemplos\frmEjemplosswitch.Designer.cs">
       <DependentUpon>frmEjemplosswitch.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejemplos\frmMessageBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ejemplos\frmMessageBox.Designer.cs">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio1.Designer.cs">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio2.Designer.cs">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Practicas clase 3\Ejercicio3.Designer.cs">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Ejemplos\frmEjemplosswitch.resx">
       <DependentUpon>frmEjemplosswitch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ejemplos\frmMessageBox.resx">
+      <DependentUpon>frmMessageBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practicas clase 3\Ejercicio1.resx">
+      <DependentUpon>Ejercicio1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practicas clase 3\Ejercicio2.resx">
+      <DependentUpon>Ejercicio2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Practicas clase 3\Ejercicio3.resx">
+      <DependentUpon>Ejercicio3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
