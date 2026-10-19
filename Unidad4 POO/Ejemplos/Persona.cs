@@ -35,7 +35,7 @@ namespace Unidad4_POO.Ejemplos
         }
 
         //Metodo o accion 
-        public void MostrarMostrarDatos()
+        public void MostrarDatos()
         {
             MessageBox.Show("Nombre: " + Nombre + "\nEdad: " + Edad);
         }

@@ -24,6 +24,7 @@ namespace Unidad4_POO
 
             personaUno.Nombre = "Juan";
             personaUno.Edad = 30;
+            personaUno.MostrarDatos();
         }
     }
 }
