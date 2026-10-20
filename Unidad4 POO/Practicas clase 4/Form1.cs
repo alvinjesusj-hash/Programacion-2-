@@ -40,7 +40,7 @@ namespace Unidad4_POO.Practicas_clase_4
             {
                 MessageBox.Show("Ingrese un precio válido.");
             }
-
+             
         }
 
         private void label1_Click(object sender, EventArgs e)
