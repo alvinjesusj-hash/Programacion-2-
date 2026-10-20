@@ -31,6 +31,8 @@
             this.g = new System.Windows.Forms.TextBox();
             this.txtPrecio = new System.Windows.Forms.TextBox();
             this.btnMostrar = new System.Windows.Forms.Button();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblPrecio = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // g
@@ -55,12 +57,34 @@
             this.btnMostrar.TabIndex = 2;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click_1);
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(12, 131);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(186, 16);
+            this.lblNombre.TabIndex = 3;
+            this.lblNombre.Text = "Digite el Nombre del producto";
+            this.lblNombre.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lblPrecio
+            // 
+            this.lblPrecio.AutoSize = true;
+            this.lblPrecio.Location = new System.Drawing.Point(66, 180);
+            this.lblPrecio.Name = "lblPrecio";
+            this.lblPrecio.Size = new System.Drawing.Size(97, 16);
+            this.lblPrecio.TabIndex = 4;
+            this.lblPrecio.Text = "Digite el precio";
             // 
             // txtNombre
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblPrecio);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.txtPrecio);
             this.Controls.Add(this.g);
@@ -76,5 +100,7 @@
         private System.Windows.Forms.TextBox g;
         private System.Windows.Forms.TextBox txtPrecio;
         private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.Label lblPrecio;
     }
 }
