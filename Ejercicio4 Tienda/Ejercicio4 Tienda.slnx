@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Ejercicio 3/">
+    <File Path="../Ejercicio3_Tienda.csproj" />
+  </Folder>
   <Project Path="Ejercicio4 Tienda/Ejercicio4 Tienda.csproj" />
 </Solution>
